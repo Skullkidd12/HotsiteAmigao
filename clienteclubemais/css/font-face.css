@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Goldplay';
+	src: url('font/Goldplay-Regular.eot');
+	src: url('font/Goldplay-Regular.eot?#iefix') format('embedded-opentype'),
+	url('font/Goldplay-Regular.woff2') format('woff2'),
+	url('font/Goldplay-Regular.woff') format('woff'),
+	url('font/Goldplay-Regular.ttf') format('truetype'),
+	url('font/Goldplay-Regular.svg#Minimo-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Goldplay';
+	src: url('font/Goldplay-Bold.eot');
+	src: url('font/Goldplay-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/Goldplay-Bold.woff2') format('woff2'),
+	url('font/Goldplay-Bold.woff') format('woff'),
+	url('font/Goldplay-Bold.ttf') format('truetype'),
+	url('font/Goldplay-Bold.svg#Minimo-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Goldplay';
+	src: url('font/Goldplay-Medium.eot');
+	src: url('font/Goldplay-Medium.eot?#iefix') format('embedded-opentype'),
+	url('font/Goldplay-Medium.woff2') format('woff2'),
+	url('font/Goldplay-Medium.woff') format('woff'),
+	url('font/Goldplay-Medium.ttf') format('truetype'),
+	url('font/Goldplay-Medium.svg#Goldplay-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Goldplay';
+	src: url('font/Goldplay-Light.eot');
+	src: url('font/Goldplay-Light.eot?#iefix') format('embedded-opentype'),
+	url('font/Goldplay-Light.woff2') format('woff2'),
+	url('font/Goldplay-Light.woff') format('woff'),
+	url('font/Goldplay-Light.ttf') format('truetype'),
+	url('font/Goldplay-Light.svg#Goldplay-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}

@@ -1,0 +1,290 @@
+﻿@charset "utf-8";
+/*
+Clube+ CSD
+Author: PLUSOFT DTM
+V1 @ 2023
+*/
+@import 'font-face.css';
+
+/*
+BS ELEMENTS
+----------------------------------*/
+.btn-cadastrar {font-family: "Goldplay"; font-weight:bold; color: #ffffff; background-color: #EE312F; border-color: transparent; border-radius: 50px; padding: 10px 20px; text-transform: uppercase;}
+.btn-cadastrar:hover, 
+.btn-cadastrar:focus, 
+.btn-cadastrar:active, 
+.btn-cadastrar.active,
+.open .dropdown-toggle.btn-cadastrar {color: #fc0; background-color: #bc1b18; border-color: transparent;}  
+.btn-cadastrar:active, 
+.btn-cadastrar.active, 
+.open .dropdown-toggle.btn-cadastrar {background-image: none;} 
+.btn-cadastrar.disabled, 
+.btn-cadastrar[disabled], fieldset[disabled] .btn-cadastrar, 
+.btn-cadastrar.disabled:hover, 
+.btn-cadastrar[disabled]:hover, fieldset[disabled] .btn-cadastrar:hover, 
+.btn-cadastrar.disabled:focus, 
+.btn-cadastrar[disabled]:focus, fieldset[disabled] .btn-cadastrar:focus, 
+.btn-cadastrar.disabled:active, 
+.btn-cadastrar[disabled]:active, fieldset[disabled] .btn-cadastrar:active, 
+.btn-cadastrar.disabled.active, 
+.btn-cadastrar[disabled].active, fieldset[disabled] .btn-cadastrar.active {background-color: #ffcc33; border-color: transparent;} 
+.btn-cadastrar .badge {color: #003A70; background-color: #003A70;}
+
+.form-control:focus {border-color: rgba(239, 196, 45, 0.8); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(239, 196, 45, 0.6); outline: 0 none;}
+
+.btn-link {color: #003A70;}
+.btn-link:focus,
+.btn-link:hover,
+.btn-link:active {color: #003A70;}
+
+
+/*
+GENERAL ELEMENTS
+----------------------------------*/
+body {font-family: Arial, Helvetica Neue, Helvetica, sans-serif;}
+h1, h2, h3, h4 {font-family: "Goldplay"; font-weight:bold;}
+a {outline: 0 !important;}
+.icon-bar {background-color: #fc0}
+.img-center {margin:0 auto}
+.cta .btn-cadastrar {padding-right: 60px; padding-left: 60px; font-size: 23px}
+.cta .btn-link {font-size: 12px}
+
+body.cta{
+    background-color:#f6f6f6;
+}
+
+body.cta section{
+    padding: 65px;
+}
+
+.noshadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/*
+GENERAL-CONTENT
+----------------------------------*/
+/*navbar*/
+.menuzao,
+.menuzim {
+    -webkit-transition: padding .25s;
+    -moz-transition: padding .25s;
+    transition: padding .25s;
+}
+.menuzao {padding: 30px 0;}
+.menuzim {padding: 10px 0; background-color: #003A70; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);}
+
+.menu-senha {
+    padding: 10px 0;
+    background-color: #003A70;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.navbar-brand {padding: 0 15px;}
+.navbar-brand img {max-width: 120px;}
+
+.navbar .navbar-nav > li > a {color: #fff; padding-top: 10px; padding-bottom: 10px;}
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:active {background-color: transparent; color: #ffcc33;}
+
+.navbar .navbar-nav > li.active > a {color: #ffcc33; font-weight: bold;}
+.navbar .navbar-nav > li.active > a:focus,
+.navbar .navbar-nav > li.active > a:hover,
+.navbar .navbar-nav > li.active > a:active {}
+
+.navbar .navbar-nav > li > a.regulamento {border-radius: 100px;  font-weight: bold; border: 1px solid #ffcc33; color: #ffcc33; background-color: transparent;}
+.navbar .navbar-nav > li > a.regulamento:focus,
+.navbar .navbar-nav > li > a.regulamento:hover,
+.navbar .navbar-nav > li > a.regulamento:active {border: 1px solid transparent; background-color: #ffcc33; color: #003A70;}
+
+/*Header*/
+header {padding: 150px 0 70px 0; color:#fff; background:#003A70 url('../images/bg1.png') no-repeat top center fixed; background-size: cover;}
+header h1 .mais{color: #fd6562;}
+header h2 {text-transform: initial;}
+header h3 .mais {color: #ffcc33;}
+header h3 {margin-top: 80px;}
+header p {font-size: 16px}
+header .cta {margin-top: 80px;}
+header .cta .btn-link {color: #fff}
+header 
+section {padding: 110px 0}
+#vantagens h3 {text-align: center; margin: 60px 0 50px 0; text-transform: uppercase; font-size: 30px;}
+
+/*Faça Parte*/
+#facaparte {background: #EE312F; padding-bottom: 0; background-size:cover;}
+#facaparte .bloquim {background: #fff; padding: 50px 10px; border-radius: 30px}
+#facaparte .bloquim h3 {color: #003A70; text-align: center; margin: 0px 0 50px 0; text-transform: uppercase; font-size: 30px;}
+#facaparte .bloquim p {padding-left: 50px; color: #003A70; margin-bottom: 40px;}
+#facaparte .bloquim p:before {position: absolute; left: 15px; width: 40px; height: 40px; background: #e9b319; border-radius: 100px; text-align: center; line-height: 40px; font-family: "Goldplay"; font-weight:bold; font-size: 30px; color:#ffffff;}
+#facaparte .bloquim p:nth-of-type(1):before {content: '1';}
+#facaparte .bloquim p:nth-of-type(2):before {content: '2';}
+#facaparte .bloquim p:nth-of-type(3):before {content: '3';}
+#facaparte .bloquim .cta .btn-link {color: #3e367e}
+#facaparte .mulher {max-height: 550px}
+#facaparte .container{padding: 80px 0 40px 0}
+#facaparte .row .cta .azul { background-color: #003A70;}
+/*Vantagens*/
+#vantagens {background:#f8f8f8;}
+#vantagens h3 {color: #EE312F; text-align: center; margin: 0px 0 50px 0; text-transform: uppercase; font-size: 30px;}
+#vantagens .container{padding: 80px 0 20px 0}
+#vantagens .icone {width: 160px}
+#vantagens .app .icone {width: 300px}
+#vantagens h4 {color: #003A70; text-transform: uppercase; min-height: 40px}
+#vantagens p {max-width: 300px; margin: 0 auto; margin-bottom: 25px}
+/*logo no final*/
+.logofinal{max-width: 70px;}
+/*Nossas Lojas*/
+#nossaslojas {padding: 100px 0; background: #e9b319 url('../images/bg3.jpg') no-repeat center center fixed; background-size: cover;}
+#nossaslojas {color: #EE312F}
+.vtab-container{background: #fff; -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175); box-shadow: 0 6px 12px rgba(0,0,0,.175); -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);}
+.vtab-menu {max-height: 650px; padding: 0; overflow: auto; overflow-x: hidden;}
+.vtab-menu .list-group {margin-bottom: 0;}
+.list-group-item {cursor:pointer;margin-bottom: 0; padding: 20px; border:1px solid #ffcc33; border-bottom: 0; border-left: 0; font-family: "Goldplay"; font-weight: bold; text-transform: uppercase; color: #EE312F; border-radius:0;}
+.list-group-item:first-child {border-top-right-radius: 0; border-top-left-radius: 0; border-top: 0}
+.list-group-item:last-child {border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
+.list-group-item.active {background-color: #fbf0d1; z-index: 0; border-color: #ffcc33; color: #EE312F}
+.vtab-content {padding: 20px 0}
+.vtab .vtab-content:not(.active) {display: none;}
+
+.item-bandeira {
+    background-color: #EE312F;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+    font-family: "Goldplay";
+    font-weight: bold;
+    text-transform: uppercase;
+    display:block;
+}
+
+.item-bandeira:hover, .item-bandeira:active{
+    color:#fff;
+}
+
+.item-cidade {
+    color: #003A70;
+    background-color: #ffcc33;
+    padding: 20px;
+    font-family: "Goldplay";
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+}
+
+.item-cidade:hover, .item-cidade:active {
+    color: #003A70;
+}
+
+#nossaslojas .list-lojas {
+    font-family: "Goldplay";
+    font-weight: 300;
+}
+#nossaslojas .vtab-content {color: #666;}
+#nossaslojas .vtab-content h4 {color: #EE312F; text-transform: uppercase;}
+#nossaslojas .vtab-content .fa {font-size: 15px; color: #EE312F}
+#nossaslojas .vtab-content p {color: #666;}
+
+/*Footer*/
+footer {padding: 40px 0}
+footer p {margin-top: 20px}
+
+/*
+MODALS
+----------------------------------*/
+.modal-title {text-transform: uppercase; color: #003A70; font-weight: bold;}
+
+/*modalCadastro*/
+#modalCadastro legend {font-family: "Goldplay"; font-weight: bold; text-transform: uppercase; color: #EE312F}
+#modalCadastro label {font-weight: normal;}
+
+/*modalFAQ*/
+#modalFAQ .panel-heading {color: #ffcc33; background-color: #003A70; border-color: #d6d6d6;}
+#accordion a {display:block;}
+
+/*modalAguarde*/
+.modalAguarde .modal-sm {max-width:100px;}
+.modalAguarde .aguarde {color: #ffcc33; margin:0}
+.modalAguarde.in ~ .modal-backdrop.in {background-color: #003A70; opacity: 0.35;}
+
+/*modalApp*/
+.modalApp.in ~ .modal-backdrop.in {background-color: #ffcc33; opacity: 0.5;}
+.modalApp p {margin-top: 20px; margin-bottom: 20px}
+
+#modalLogin .input-group-addon {background: #fff; color: #003A70;}
+
+
+/*
+MEDIAQUERIES
+----------------------------------*/
+@media only screen and (min-width:500px) {
+	header .logo {max-width: 450px}
+}
+
+@media only screen and (max-width:767px) {
+	.menuzao .navbar-collapse.in {background-color: #003A70;}
+}
+
+@media only screen and (max-width:767px) {
+	#facaparte {padding-bottom: 20px;}
+	#facaparte .bloquim {margin-right: 0; margin-left: 0;}
+	#facaparte .mulher {display: none;}
+}
+
+.logado{
+    display:none;
+}
+
+.mapa{
+    height: 450px;
+}
+
+#filterOptions{
+    background-color:#fff;
+    border-radius:10px;
+    list-style: none;
+    height: 50px;
+    margin:20px auto;
+    padding: 10px 0;
+    text-align:center;
+}
+
+ul#filterOptions li {
+    margin-right: 2px;
+    float: left;
+}
+
+.vertodos{
+    background-color:#fff;
+    padding:10px;
+    text-align:center;
+}
+
+.filtro-bandeira div {
+    display: none;
+}
+
+.list-group-item{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
+
+#regulamento-cta .modal-body{
+    height: 350px;
+    overflow-y:scroll;
+}
+
+#regulamento-cta .btn-cadastrar, #atualizarDados-cta .btn-cadastrar, .btn-ok{
+    font-size: 14px;
+    padding: 7px 20px;
+}
