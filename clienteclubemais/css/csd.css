@@ -112,7 +112,7 @@ header .cta .btn-link {color: #fff}
 header 
 section {padding: 110px 0}
 #vantagens h3 {text-align: center; margin: 60px 0 50px 0; text-transform: uppercase; font-size: 30px;}
-
+.container1{display: ;}
 /*Faça Parte*/
 #facaparte {background: #EE312F; padding-bottom: 0; background-size:cover;}
 #facaparte .bloquim {background: #fff; padding: 50px 10px; border-radius: 30px}
@@ -215,7 +215,7 @@ MODALS
 .modalApp p {margin-top: 20px; margin-bottom: 20px}
 
 #modalLogin .input-group-addon {background: #fff; color: #003A70;}
-
+.section1{margin-top:200px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
 
 /*
 MEDIAQUERIES
